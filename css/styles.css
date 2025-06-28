@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
   background-color: #ffffff;
 }
 
@@ -135,6 +134,14 @@ address {
 
 .first-section {
   background-color: #f4f4fd;
+}
+
+.third-section {
+  background-color: #f4f4fd;
+}
+
+.list-item {
+  background-color: #ffffff;
 }
 
 .third-section > h2 {
