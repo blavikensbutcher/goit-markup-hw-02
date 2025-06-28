@@ -48,14 +48,6 @@ body {
   color: #2e2f42;
 }
 
-address {
-  font-style: normal;
-}
-
-.site-nav {
-  text-decoration: none;
-}
-
 .site-nav .list .link:hover,
 .link:focus {
   color: #404bbf;
@@ -65,32 +57,18 @@ address {
   letter-spacing: 0.32px;
 }
 
-.site-nav .list .link:focus {
-  color: #404bbf;
-}
-
-.contacts .list .link:hover {
-  color: #404bbf;
-}
-
-.contacts .list .link:focus {
-  color: #404bbf;
-}
-
 .contacts .list .link {
   color: #434455;
 }
 
-.contacts .list {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.contacts .list .link:hover,
+.contacts .list .link:focus {
+  color: #404bbf;
 }
 
 .first-header {
   color: #fff;
   text-align: center;
-  /* Header 1 */
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -98,13 +76,21 @@ address {
   letter-spacing: 1.12px;
 }
 
-.third-header {
-  color: #2e2f42;
-  font-size: 20px;
+.order-service-button {
+  background: var(--iris, #4d5ae5);
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: #404bbf;
 }
 
 .second-header {
@@ -118,58 +104,12 @@ address {
   text-transform: capitalize;
 }
 
-.portfolio-section .list .about-our-work {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.second-header-portfolio {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.third-header {
   color: #2e2f42;
-}
-
-.first-section {
-  background-color: #2e2f42;
-}
-
-.third-section {
-  background-color: #f4f4fd;
-}
-
-.list-item {
-  background-color: #ffffff;
-}
-
-.third-section > h2 {
-  line-height: 1.11;
-}
-
-.four-section {
-  background-color: #f4f4fd;
-}
-
-.four-section .underlist {
-  background-color: #ffffff;
-}
-
-.four-section > h2 {
-  line-height: 1.11;
-}
-
-.four-section > p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.four-section .list > p {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -181,52 +121,39 @@ address {
   letter-spacing: 0.02em;
 }
 
-.contacts-mail:hover {
-  color: #404bbf;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.order-service-button {
-  background: var(--iris, #4d5ae5);
-  cursor: pointer;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  /* Button Text */
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-.order-service-button:hover,
-.order-service-button:focus {
-  background-color: #404bbf;
-}
-
-.sorting-button {
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
+.third-section {
   background-color: #f4f4fd;
 }
 
-.sorting-button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+.four-section {
+  background-color: #f4f4fd;
 }
 
-.sorting-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-footer {
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
   background-color: #2e2f42;
   flex-shrink: 0;
 }
@@ -242,12 +169,12 @@ footer {
 }
 
 .text-logo-studio-footer {
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
