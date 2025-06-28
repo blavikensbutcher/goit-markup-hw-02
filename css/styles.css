@@ -7,6 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
+  color: #434455;
 }
 
 .list {
@@ -133,7 +134,7 @@ address {
 }
 
 .first-section {
-  background-color: #f4f4fd;
+  background-color: #2e2f42;
 }
 
 .third-section {
